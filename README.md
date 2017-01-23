@@ -1,4 +1,4 @@
-# vue_hello_world
+# start_vue
 
 > A Vue.js project
 
