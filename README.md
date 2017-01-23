@@ -1,4 +1,4 @@
-# start_vue1
+# start_vue2
 
 > A Vue.js project
 
