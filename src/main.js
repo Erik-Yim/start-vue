@@ -29,7 +29,7 @@ import secondcomponent from './component/secondcomponent.vue'
 import firstcomponent from './component/firstcomponent.vue'
 
 import erik_first from './component/erik_first.vue'
-
+ 
 //需要把自定义标签的组件放在这里，这样其他.vue文件就可以使用这个标签OK
 Vue.component('my-component', {
   template: '<div>A custom component!</div>'
