@@ -19,7 +19,9 @@
     </ul>
       <ul>
         <li><router-link to="/first">点我跳转到第一页</router-link></li>
+        <li><router-link to="/firstC">点我跳转到firstC</router-link></li>
         <li><router-link to="/second">点我跳转到第二页</router-link></li>
+        <li><router-link to="/erik_first">erik_first</router-link></li>
       </ul>
     <router-view class="view"></router-view>
   </div>
@@ -27,9 +29,18 @@
 
 <script>
 
-
+import firstcomponent from './component/firstcomponent.vue'
 
 import secondcomponent from './component/secondcomponent.vue'
+
+
+import erik_first from './component/erik_first.vue'
+
+
+
+
+
+
 
 export default {
   name: 'app',
@@ -38,7 +49,7 @@ export default {
       msg: 'Welcome to Your Vue.js App'
     }
   },
-   components: { secondcomponent }
+   components: { firstcomponent,secondcomponent,erik_first }
 }
 </script>
 

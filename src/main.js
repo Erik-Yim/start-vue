@@ -26,6 +26,15 @@ Vue.use(VueRouter)
 const First = { template: '<div><h2>我是第 1 个子页面</h2></div>' }
 import secondcomponent from './component/secondcomponent.vue'
 
+import firstcomponent from './component/firstcomponent.vue'
+
+import erik_first from './component/erik_first.vue'
+
+//需要把自定义标签的组件放在这里，这样其他.vue文件就可以使用这个标签OK
+Vue.component('my-component', {
+  template: '<div>A custom component!</div>'
+})
+
 /*const router = new VueRouter({
   routes // （缩写）相当于 routes: routes
 })*/
@@ -44,6 +53,15 @@ const router = new VueRouter({
     {
       path: '/second',
       component: secondcomponent
+    },
+     {
+      path: '/firstC',
+      component: firstcomponent
+    }
+    ,
+     {
+      path: '/erik_first',
+      component: erik_first
     }
   ]
 })
