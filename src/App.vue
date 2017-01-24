@@ -34,7 +34,7 @@ import firstcomponent from './component/firstcomponent.vue'
 import secondcomponent from './component/secondcomponent.vue'
 
 
-import erik_first from './component/erik_first.vue'
+import erik_first from './component/erik_customer_lable.vue'
 
 
 

@@ -28,12 +28,31 @@ import secondcomponent from './component/secondcomponent.vue'
 
 import firstcomponent from './component/firstcomponent.vue'
 
-import erik_first from './component/erik_first.vue'
+import erik_first from './component/erik_customer_lable.vue'
+
+import custLable from './component/cust-lable.vue'
+
  
 //需要把自定义标签的组件放在这里，这样其他.vue文件就可以使用这个标签OKtest1
-Vue.component('my-component', {
-  template: '<div>A custom component!</div>'
+
+// 全局自定义组件
+/*Vue.component('my-component', {
+  template: '<div>A custom component{{name}}!</div>',
+  data() {
+  	name : "erik"
+  }
 })
+
+
+
+
+
+*/
+
+
+
+Vue.component(custLable)
+
 
 /*const router = new VueRouter({
   routes // （缩写）相当于 routes: routes
