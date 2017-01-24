@@ -2,6 +2,7 @@
   <div id="firstcomponent">
     <h1>I am a component.</h1>
     <a> written by {{ author }} </a>
+    <custLable></custLable>
   </div>
 </template>
 

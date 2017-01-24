@@ -1,6 +1,6 @@
 <template>
   <div id="erik_first">
-  	123456
+  	12345611
   </div>
 </template>
 
